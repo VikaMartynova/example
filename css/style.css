@@ -77,8 +77,7 @@ header a:hover {
 /* Showcase*/
 #showcase{
 	min-height: 400px;
-	/*background-image: url('../img/webcoverFin.jpg');*/
-	background-image:  linear-gradient(grey, #35427a );
+	background-image:  linear-gradient(grey, #7b25ba);
 	text-align: center;
 	color: #fff;
 	margin-bottom: 0;
@@ -129,6 +128,19 @@ header a:hover {
 	height: 360px;
 	width: 300px;
 }
+#boxes .box ul{
+	list-style-type: none;
+}
+#boxes .box .links{
+	background-color: #7b2565;
+	min-height: 150px;
+	color: #fff;
+
+}
+#boxes .box ul li a{
+	color: #ccc;
+	text-align: center;
+}
 
 /*FOOTER*/
 
@@ -141,6 +153,7 @@ footer{
 	position:relative; 
 	overflow:hidden; 
 	text-align: left; 
+	color: white;
 }
 footer p{
 	padding-top: 20px;
