@@ -1,0 +1,148 @@
+body{
+	font : 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+	width:100%;
+	height: 100%;
+}
+
+.container{
+	width: 80%;
+	height: 1%;
+	position: relative;
+	margin: auto;
+	overflow: hidden;
+	padding: 10px 10px 50px;
+}
+
+.button1{
+	/*padding: 5px;*/
+	height: 34px;
+	width: 100px;
+	padding-right: 20px;
+	padding-left: 20px;
+    background: #1ddde8;
+    border: 0;
+    color: #fff;
+    }
+
+/* HEADER */
+header{ 
+	position: relative;
+	width: 100%;
+	background: #7b2565;
+	margin: 0 auto;
+	color: white;
+	padding-top: 30px;
+	min-height: 50px;
+	border-bottom: #1dc3e8 3px solid;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 0;
+}
+header #logo {
+	float: left;
+}
+header #logo h1{
+	margin: 0;
+}
+nav{
+	float: right;
+	margin-top: 15px;
+}
+header .highlight, header .current a{
+	color: #1ddde8;
+	font-weight: bold;
+}
+header a:hover {
+	color: #ccd;
+}
+
+/* Showcase*/
+#showcase{
+	min-height: 400px;
+	/*background-image: url('../img/webcoverFin.jpg');*/
+	background-image:  linear-gradient(grey, #35427a );
+	text-align: center;
+	color: #fff;
+	margin-bottom: 0;
+}
+#showcase h1{
+	margin-top: 120px;
+	font-size: 55px;
+	margin-bottom: 20px;
+}
+#showcase p{
+	font-size: 20px;
+}
+
+/*NEWSINFORM*/
+#newsinf{
+	min-height: 30px;
+	background: #7b2565;
+	margin-top: 0;
+	border-bottom: #1dc3e8 5px solid;
+	border-top: #1dc3e8 2px solid;
+	color:  #1ddde8;
+}
+#newsinf h1{
+	float: left;
+}
+#newsinf form{
+	float: right;
+	margin-top: 20px;
+}
+#newsinf input[type="email"]{
+	padding: 5px;
+	height: 20px;
+	width: 300px;
+}
+
+/*BOXES*/
+#boxes{
+	margin-top: 40px;
+}
+#boxes .box{
+	float: left;
+	width: 30%;
+	padding: 10px;
+	border-width: 5px;
+	text-align: center;
+}
+#boxes .box img{
+	height: 360px;
+	width: 300px;
+}
+
+/*FOOTER*/
+
+footer{
+	width: 98.5%;
+	background: #7b2565;
+	height: 50px;
+	/*margin:-70px auto 0; */
+	padding:10px; 
+	position:relative; 
+	overflow:hidden; 
+	text-align: left; 
+}
+footer p{
+	padding-top: 20px;
+	margin-left: 20px;
+}
