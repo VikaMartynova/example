@@ -135,11 +135,19 @@ header a:hover {
 	background-color: #7b2565;
 	min-height: 150px;
 	color: #fff;
-
+}
+#boxes .box .links p{
+	padding-top: 10px;
 }
 #boxes .box ul li a{
 	color: #ccc;
-	text-align: center;
+	padding-right: 20px;
+}
+#boxes .box ul li a:hover{
+	color: #1dc3e8;
+}
+#boxes .box img:hover{
+	transform: scale(1.1);
 }
 
 /*FOOTER*/
@@ -148,14 +156,14 @@ footer{
 	width: 98.5%;
 	background: #7b2565;
 	height: 50px;
-	/*margin:-70px auto 0; */
 	padding:10px; 
 	position:relative; 
 	overflow:hidden; 
 	text-align: left; 
 	color: white;
+	font-size: 16px;
 }
 footer p{
-	padding-top: 20px;
+	padding-top: 10px;
 	margin-left: 20px;
 }
