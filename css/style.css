@@ -26,7 +26,9 @@ body{
     border: 0;
     color: #fff;
     }
-
+#none{
+	display: none;
+}
 /* HEADER */
 header{ 
 	position: relative;
@@ -166,4 +168,73 @@ footer{
 footer p{
 	padding-top: 10px;
 	margin-left: 20px;
+}
+/*Laptop*/
+@media(max-width: 1024px){
+	#boxes .box img{
+		max-width: 200px;
+	max-height: 250px;
+	}
+	#boxes .box .links{
+	min-height: 190px;
+	}
+	#boxes .box ul li a{
+		padding-right: 30px;
+	}
+	#none{
+		display: block;
+	}
+}
+/*Tablet*/
+@media(max-width: 768px){
+	body{
+		max-width: 95%;
+	}
+	header #logo, header nav {
+		float: none;
+		text-align: centre;
+	}
+	#showcase h1{
+		margin-top: 30px;
+	}
+	#newsinf h1{
+	text-align: centre;
+	margin: 0 20px;
+	}
+	#newsinf form{
+		float:none;
+	}
+	#newsinf input[type="email"]{
+		margin: 10px 10px 5px 30px;
+	}
+	#newsinf button{
+		margin: 5px 20px 5px 0;
+	}
+	#boxes .box{
+		float: none;
+		width: 80%;
+		margin: 10px auto;
+	}
+}
+/*Mobile*/
+@media(max-width: 425px){
+	#newsinf input[type="email"]{
+		width: 200px;
+		margin: 5px 30px;
+
+	}
+	#newsinf button{
+		width: 214px;
+		margin: 5px 30px;
+	}
+	#boxes .box img{
+		height: 260px;
+		width: 200px;
+	}
+	#boxes{
+		max-width: 90%;
+	}
+	#boxes .box ul{
+		padding: 0;
+	}
 }
