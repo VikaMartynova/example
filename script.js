@@ -4,7 +4,6 @@ var btnNext = document.querySelector('#gallery .buttons .next');
 
 var images = document.querySelectorAll('#gallery .photos img');
 var i = 0;
-console.log(-9%10);
 
 btnNext.onclick = function(){
 	images[i++].className = '';
